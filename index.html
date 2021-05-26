@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV_FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login">
+        <div class="register">
+            <div class="head">
+                <h2> Curriculum Vitae (CV)</h2>
+                <hr>
+            </div>
+            
+            <div class="form">
+                <form>
+                    <div>
+                         <p>First Name:</p>
+                         <input type="text" name="fname" placeholder="Enter Your First Name" required />
+                     </div>
+                    <div>
+                         <p>Last Name:</p>
+                         <input type="text" name="Lname" placeholder="Enter Your Last Name" required />
+                    </div>
+                    <div>
+                         <p> Email Address: </p>
+                         <input type="email" name="email" id="email" placeholder="Enter Your Valid Email" required/> 
+                    </div>
+                     <div>
+                         <p>Phone Number:</p>
+                         <input type="number" name="NUMBER" id="number" placeholder="Enter Your Number">
+                     </div>
+                     <div>
+                        <p>Qualification:</p>
+                        <select name="Qualification" id="Qualification" required style="margin-top: 15px;border-radius: 5px; height:30px; background:#f2f2f2;" > 
+                                 <option value="">--Select--</option>
+                                 <option value="BE">BE</option>
+                                 <option value="B.Tech">B.Tech</option>
+                                 <option value="M.tech">M.Tech</option>
+                                 <option value="B.Arch">B.Arch</option>
+                        </select>
+                         
+                     </div>
+                     <div>
+                        <p>College : </p>
+                        <input type="text" name="college" id="college" placeholder="Enter Your College" >
+                     </div>
+                     <div>
+                        <p>Department:</p>
+                        <select name="DEPT" id="DEPT" required style="margin-top: 15px; border-radius: 5px; height: 30px; background:#f2f2f2;" >
+                            <option value="">---Select--</option>
+                            <option value="ISE">ISE</option>
+                            <option value="CSE">CSE</option>
+                            <option value="ECE">ECE</option>
+                            <option value="ME">ME</option>
+                            <option value="EEE">EEE</option>
+                            <option value="CIV">CIV</option>
+                            <option value="ETE">ETE</option>
+                        </select>
+                     </div>
+                     <div>
+                         <p>Year of Passing:</p>
+                         <input type="number" name="year" id="year" placeholder="Enter Your Year Of Passing">
+                     </div>
+                     <div>    
+                         <p>Skills:</p>
+                         <input type="text" placeholder="Enter Your Skills">
+                     </div>
+                     <div>
+                         <p>Experience:</p>
+                         <input type="text" placeholder="Enter Your Experience">
+                     </div>
+                     <div>
+                         <p>Project:</p>
+                         <input type="text" placeholder="Enter Your Project">
+                     </div>
+                     <div>    
+                         <p>Interest:</p>
+                         <input type="text" placeholder="Enter Your Interest">
+                     </div>
+                     <div>
+                        <p class="SC">Social Profile: </p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <p class="s">Linkedin:</p>
+                            <input type="text" id="link" placeholder="Enter Your Profile">&nbsp;&nbsp;
+                            <p class="s">Github:</p>
+                            <input type="text" id="link" placeholder="Enter Your Profile">
+                     </div>
+                     <div>
+                         <p>Upload Resume: </p>
+                         <input type="file" name="file" id="file" accept="image/*" style="margin-top: 15px; font-family:'Times New Roman', Times, serif ; font-weight: bold; cursor: pointer; " />
+                     </div>
+             </form>
+            </div>
+            <div class="btn">
+                <button type="submit">SUBMIT</button>
+            </div>
+    </div>
+    </div>
+    <div>
+        <p>By: Rhydam Mittal</p>
+    </div>
+    
+
+</body>
+</html>
