@@ -1,0 +1,71 @@
+.login{
+    /* background-image: url(./image.jpeg);
+    background-size:cover; */ 
+    background: azure;
+    margin: 0px;
+    padding:0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.register{
+    background-color: rgba(0,0,0,0.5);
+    width: 600px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.head{    
+    align-self: center;
+    color: black;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-style:oblique;
+    padding: 15px;
+}
+form > div{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+form > div > p{
+    color: white;
+    width: 30%;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif
+}
+form > div > input{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+    font-size: 14px;
+    padding: 12px;
+    background: #f2f2f2;
+    outline: none;
+}
+input:focus::placeholder{
+    color: transparent;
+}
+.btn{
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.btn > button{
+    border-radius: 5px;
+    font-size: 18px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}
+.SC{
+    margin-right: 50px;
+}
+.s{
+    margin-right:10px;
+}
+#link{
+    height: 30px;
+}
+
